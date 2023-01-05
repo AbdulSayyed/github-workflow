@@ -12,4 +12,5 @@ jobs:
       - run: npm --version
       # run: npm install # produes error as it does not know how to pull our code in the environment
       - uses: actions/checkout@v3
-      - run: dir
+      # - run: dir
+      - run: npm install
