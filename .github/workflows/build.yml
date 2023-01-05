@@ -4,6 +4,7 @@ jobs:
   first-job:
     # runs-on: windows-latest
     runs-on: ubuntu-latest
+    container: node: 19.3
     steps:
       - run: node --version
       - run: npm --version
