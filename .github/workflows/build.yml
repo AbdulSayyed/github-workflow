@@ -10,4 +10,6 @@ jobs:
     steps:
       - run: node --version
       - run: npm --version
-      - run: npm install
+      # run: npm install # produes error as it does not know how to pull our code in the environment
+      - uses: actions/checkout@v3
+      - run: dir
